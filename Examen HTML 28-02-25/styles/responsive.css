@@ -1,0 +1,52 @@
+@media screen and (max-width: 480px) {
+
+    .main{
+        height: 100px;
+    }
+    
+    .imgBox{
+        height: 400px;
+    }
+    .imgBox img{
+        height: 745px
+    }
+
+
+
+    .technologies{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 400px;
+        
+    }
+
+    .techdiv{
+        width: 350px;
+        gap: 50px   ;
+        border-radius: 10px;
+        justify-content: space-between;
+    }
+
+    .imgBoxCurso{
+        height: 200vh;
+    }
+    .imgBoxCurso img{
+        height: 240vh;
+    }
+
+    .centertext h1{
+        font-size: 20px;
+    }
+
+    .bottom{
+        padding-inline: 20px;
+    }
+
+
+    .techimg{
+        border-radius: 10px;
+    }
+
+  }
+
+  

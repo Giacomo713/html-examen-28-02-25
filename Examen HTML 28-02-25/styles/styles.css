@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+.main{
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 100%
+}
+
+header ul{
+    display: flex;
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 50px
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-family: "Jua", serif;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+.Inicio{
+    color: #D61414;
+}
+
+.imgBox{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgBox img{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.centertext{
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 37%;
+    top: 35%;
+    background-color: #272C3B5E;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 0px 4px 4px #00000040;
+}
+
+.centertext h1{
+    display: flex;
+    color: white;
+    font-size: 86px;
+    font-weight: 800;
+    text-shadow: #00000040;
+    line-height: 129px;
+}
+
+.centertextcurso{
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 25%;
+    top: 15%;
+    background-color: #272C3B5E;
+    backdrop-filter: blur(2px);
+    align-items: center;
+    flex-direction: column; 
+    
+}
+
+.centertextcurso h1{
+    display: flex;
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 0.2%;
+}
+
+.centertextcurso p{
+    display: flex;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    font-size: 18px;
+}
+
+.technologies{
+    position: relative;
+    display: flex;
+    top: 40%;
+    justify-content: space-around;
+    height: 55%;
+}
+
+
+.imgBoxCurso{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    align-items: center;
+    justify-content: center;
+    filter: blur(2px);
+
+}
+
+.imgBoxCurso img{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.techimg{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    object-fit: fill;
+}
+
+.techdiv{
+    width: 25%;
+    background-color: white;
+    box-shadow: 10px 10px 4px #00000040;
+    height: 108%;
+}
+
+.techhead{
+    font-weight: 600;
+    font-size: 24px;
+    padding-inline: 8%;
+    padding-top: 4%;
+}
+
+.techp{
+    font-size: 10px;
+    padding-inline: 8%;
+    padding-bottom: 3%;
+}
+
+i{
+    color: #404040;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+
